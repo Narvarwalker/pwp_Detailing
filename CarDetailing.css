@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+    max-width: 1024px;
+      margin: 0px auto;
+}
+
+div#menu {
+    width: 100%;
+    min-width: ;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(car-wash-photo-3.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+header {
+    padding: 15px;
+    width: 100%;
+}
+
+nav {
+    height: 48px;
+} 
+
+nav ul {
+    padding: 0;
+    display: flex
+
+}
+div li a {
+    width: 100%;
+    font-size: 20px;
+
+}
+/* Navigation ul*/
+  ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: clear;
+  opacity: 75%;
+  width: 100%;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: aliceblue;
+}
+
+ li {
+    display: inline block;
+    float: left;
+    padding: 8px;
+  }
+
+h1 {
+    clear: right;
+    float: left;
+    padding: .5em;
+    width: 10%;
+    opacity: 65%;
+}
+
+h1.Floatright {
+    clear: right;
+    float: right;
+    padding: .5em;
+    width: 30%;
+    opacity: 65%;
+}
+
+div.row {
+    width: 100%;
+}
+
+div.col-1-2 {
+    width: 100%;
+
+}
+
+h2 {
+    clear: left;
+    float: left;
+    padding: 0em;
+    width: 33%;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+
+}
+
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 15px;
+    background: radial-gradient(circle at 100%, transparent, lightblue 40%, pink 80%, orange 80%, #fdf5e6  100%);
+    float: left;
+    width: 100%;
+    margin-top: auto;
+    font-size: 1.5em;
+    max-height: 1024px;
+}
+
+footer a.fa:hover {
+    opacity: 0.7%;
+}
+
+footer a.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+footer a.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+footer a.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+footer a.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
